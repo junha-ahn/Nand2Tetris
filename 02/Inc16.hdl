@@ -1,0 +1,21 @@
+CHIP Inc16 {
+    IN in[16];
+    OUT out[16];
+    PARTS:
+    HalfAdder(a = true, b = in[0], carry= c1, sum= out[0]);    
+    HalfAdder(a = c1, b = in[1], carry= c2, sum = out[1]);
+    HalfAdder(a = c2, b = in[2], carry= c3, sum = out[2]);
+    HalfAdder(a = c3, b = in[3], carry= c4, sum = out[3]);
+    HalfAdder(a = c4, b = in[4], carry= c5, sum = out[4]);
+    HalfAdder(a = c5, b = in[5], carry= c6, sum = out[5]);
+    HalfAdder(a = c6, b = in[6], carry= c7, sum = out[6]);
+    HalfAdder(a = c7, b = in[7], carry= c8, sum = out[7]);
+    HalfAdder(a = c8, b = in[8], carry= c9, sum = out[8]);
+    HalfAdder(a = c9, b = in[9], carry= c10, sum = out[9]);
+    HalfAdder(a = c10, b = in[10], carry= c11, sum = out[10]);
+    HalfAdder(a = c11, b = in[11], carry= c12, sum = out[11]);
+    HalfAdder(a = c12, b = in[12], carry= c13, sum = out[12]);
+    HalfAdder(a = c13, b = in[13], carry= c14, sum = out[13]);
+    HalfAdder(a = c14, b = in[14], carry= c15, sum = out[14]);
+    Xor(a = c15, b = in[15], out = out[15]);
+}
