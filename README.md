@@ -16,7 +16,8 @@
 - [x] Mux4Way16
 
 ### 2장 불 연산
-![day2halfadder](https://user-images.githubusercontent.com/41976906/197333807-ecf28df9-4d9f-44e8-80a6-d81690660da3.PNG)
+
+<img src="https://user-images.githubusercontent.com/41976906/197333807-ecf28df9-4d9f-44e8-80a6-d81690660da3.PNG" width="70%">
 
 
 - [x] HalfAdder
