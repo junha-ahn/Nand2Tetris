@@ -1,5 +1,5 @@
 # Nand2Tetris-Study
-&lt;밑바닥부터 만드는 컴퓨터 시스템> 스터디
+&lt;밑바닥부터 만드는 컴퓨터 시스템> 스터디 with [@enkoding1](https://github.com/enkoding1)
 
 # 출처 
 - [Nand to Tetris](https://www.nand2tetris.org/)
@@ -19,8 +19,14 @@
 
 <img src="https://user-images.githubusercontent.com/41976906/197333807-ecf28df9-4d9f-44e8-80a6-d81690660da3.PNG" width="70%">
 
-
 - [x] HalfAdder
 - [x] FullAdder
 - [x] Inc16(증분기)
 - [x] ALU (6 opcodes)
+
+### 3장 순차 논리
+
+- [x] 1 Bit register
+- [x] 16 Bit register
+- [x] RAM8 (16 bit register * 8)
+- [x] PC(Program Counter)
