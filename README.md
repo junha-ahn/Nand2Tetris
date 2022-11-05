@@ -8,6 +8,8 @@
 # 진행
 
 ### 1장 불 논리
+> 2022년 10월 10일
+
 - [x] Xor
 - [x] Not16
 - [x] Mux
@@ -16,6 +18,7 @@
 - [x] Mux4Way16
 
 ### 2장 불 연산
+> 2022년 10월 22일
 
 <img src="https://user-images.githubusercontent.com/41976906/197333807-ecf28df9-4d9f-44e8-80a6-d81690660da3.PNG" width="70%">
 
@@ -25,8 +28,20 @@
 - [x] ALU (6 opcodes)
 
 ### 3장 순차 논리
+> 2022년 10월 29일 
 
 - [x] 1 Bit register
 - [x] 16 Bit register
 - [x] RAM8 (16 bit register * 8)
 - [x] PC(Program Counter)
+
+### 4장 기계어
+> 2022년 11월 5일 
+
+
+<img src="https://user-images.githubusercontent.com/41976906/200116986-42a556be-9719-4f65-af7d-71a9e142e505.PNG" width="80%">
+
+
+
+- [x] Mult.asm (곱셈 프로그램)
+- [x] Fill.asm (I/O 조작 프로그램)
