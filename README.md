@@ -10,6 +10,8 @@
 ### 1장 불 논리
 > 2022년 10월 10일
 
+<img src="https://user-images.githubusercontent.com/41976906/202856400-66601f3f-82f5-4969-a9a7-f7fa2bdd57eb.jpeg" width="50%">
+
 - [x] Xor
 - [x] Not16
 - [x] Mux
@@ -20,6 +22,7 @@
 ### 2장 불 연산
 > 2022년 10월 22일
 
+<img src="https://user-images.githubusercontent.com/41976906/202856459-3b682a87-3848-4a36-9c24-2fa0a1a5174b.jpeg" width="50%">
 <img src="https://user-images.githubusercontent.com/41976906/197333807-ecf28df9-4d9f-44e8-80a6-d81690660da3.PNG" width="70%">
 
 - [x] HalfAdder
@@ -29,6 +32,8 @@
 
 ### 3장 순차 논리
 > 2022년 10월 29일 
+
+<img src="https://user-images.githubusercontent.com/41976906/202856489-28ba1b68-e617-4a0b-8224-381ccebe01a4.jpeg" width="50%">
 
 - [x] 1 Bit register
 - [x] 16 Bit register
