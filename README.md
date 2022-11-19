@@ -1,6 +1,6 @@
 # Nand2Tetris-Study
 <밑바닥부터 만드는 컴퓨터 시스템> with [@enkoding1](https://github.com/enkoding1)
-- <The Elements of Computing Systems>
+- The Elements of Computing Systems
 
 # Reference 
 - [Nand2Tetris](https://www.nand2tetris.org/)
