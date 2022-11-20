@@ -51,3 +51,11 @@
 
 - [x] Mult.asm (곱셈 프로그램)
 - [x] Fill.asm (I/O 조작 프로그램)
+
+### 5장 컴퓨터 아키텍처
+
+<img src="https://user-images.githubusercontent.com/41976906/202898411-a470c44d-8d74-43b9-b0c6-65d0f3c4fd02.jpg" width="50%">
+
+- [x] Memory 
+- [x] 16-bit 6-opcode CPU
+- [x] Computer Chip
