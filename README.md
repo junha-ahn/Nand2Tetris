@@ -1,5 +1,5 @@
 # Nand2Tetris-Study
-<밑바닥부터 만드는 컴퓨터 시스템> with [@enkoding1](https://github.com/enkoding1)스크린샷, 2022-12-04 18-08-47
+<밑바닥부터 만드는 컴퓨터 시스템> with [@enkoding1](https://github.com/enkoding1)
 - The Elements of Computing Systems
 
 # 목차
