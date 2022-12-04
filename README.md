@@ -76,7 +76,7 @@
 # 6장 어셈블러
 > 2022.12.04
 
-<img src="https://user-images.githubusercontent.com/65354945/205482487-b98c182b-20c4-4131-b0c7-705ffac8ea3d.PNG" width="60%"><img src="https://user-images.githubusercontent.com/65354945/205482904-62d4a41b-f70e-49fb-b518-b52dd4b9b143.png" width="30%">
+<img src="https://user-images.githubusercontent.com/65354945/205482487-b98c182b-20c4-4131-b0c7-705ffac8ea3d.PNG" width="70%"><img src="https://user-images.githubusercontent.com/65354945/205482904-62d4a41b-f70e-49fb-b518-b52dd4b9b143.png" width="30%">
 
 
 - [x] Assembler (python)
