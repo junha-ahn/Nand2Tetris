@@ -9,7 +9,7 @@
 - [x] 4. 기계어
 - [x] 5. 컴퓨터 아키텍처
 - [x] 6. 어셈블러
-- [ ] 7. 가상머신: 스택 산술어
+- [x] 7. 가상머신: 스택 산술어
 - [ ] 8. 가상머신: 프로그램 제어
 - [ ] 9. 고수준 언어
 - [ ] 10. 컴파일러: 구문 분석
@@ -80,3 +80,19 @@
 
 
 - [x] Assembler (python)
+  - [x] Add.asm
+  - [x] Max.asm
+  
+# 7장 가상머신: 스택 산술어
+> 2022.12.28
+
+reference. [xctom/Nand2Tetris](https://github.com/xctom/Nand2Tetris/tree/master/projects/07)
+
+<img src="https://user-images.githubusercontent.com/65354945/209752310-362c71b9-e286-4eeb-b8cf-5128e88e5bb6.PNG" width="70%">
+
+- [x] VM-Translator (python)
+  - [x] SimpleAdd.vm
+  - [x] StackTest.vm
+  - [x] BasicTest.vm
+  - [x] PointerTest.vm
+  - [x] StaticTest.vm
