@@ -1,0 +1,25 @@
+function Main.main 2
+push constant 6
+call String.new 1
+push constant 105
+call String.appendChar 2
+push constant 110
+call String.appendChar 2
+push constant 112
+call String.appendChar 2
+push constant 117
+call String.appendChar 2
+push constant 116
+call String.appendChar 2
+push constant 58
+call String.appendChar 2
+call Keyboard.readInt 1
+pop local 0
+push local 0
+call Fibo.new 1
+pop local 1
+push local 1
+call Fibo.print 1
+pop temp 0
+push constant 0
+return

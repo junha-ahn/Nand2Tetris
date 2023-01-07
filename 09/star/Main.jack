@@ -1,0 +1,23 @@
+class Main {
+    function void main() {
+        var int n;
+        var int i;
+        var int j;
+
+        let n = Keyboard.readInt("Input:");
+        let n = n + 1;
+        
+        while (i < n) {
+            let j = 0;
+
+            while (j < i) {
+                do Output.printString("*");
+                let j = j + 1;
+            }
+            
+            do Output.println();
+            let i = i + 1;
+        }
+        return;
+    }
+}
