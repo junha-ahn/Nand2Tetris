@@ -1,0 +1,29 @@
+class Fibo {
+
+   field int x;
+    constructor Fibo new(int n) {
+      do fibo(n);
+      return this;
+   }
+
+   method int fibo(int n) {
+		if(n = 1){
+			let x = 1;
+		}
+		
+		if (n=2) {
+            let x = 1;
+   		}
+
+		if(n > 2){
+			let x = fibo(n-2) + fibo(n-1);
+		}
+
+		return x;
+   }
+
+   method void print() {
+        do Output.printInt(x);
+        return;
+   }
+}

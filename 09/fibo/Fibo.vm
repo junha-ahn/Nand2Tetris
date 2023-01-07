@@ -1,0 +1,60 @@
+function Fibo.new 0
+push constant 1
+call Memory.alloc 1
+pop pointer 0
+push pointer 0
+push argument 0
+call Fibo.fibo 2
+pop temp 0
+push pointer 0
+return
+function Fibo.fibo 0
+push argument 0
+pop pointer 0
+push argument 1
+push constant 1
+eq
+if-goto IF_TRUE0
+goto IF_FALSE0
+label IF_TRUE0
+push constant 1
+pop this 0
+label IF_FALSE0
+push argument 1
+push constant 2
+eq
+if-goto IF_TRUE1
+goto IF_FALSE1
+label IF_TRUE1
+push constant 1
+pop this 0
+label IF_FALSE1
+push argument 1
+push constant 2
+gt
+if-goto IF_TRUE2
+goto IF_FALSE2
+label IF_TRUE2
+push pointer 0
+push argument 1
+push constant 2
+sub
+call Fibo.fibo 2
+push pointer 0
+push argument 1
+push constant 1
+sub
+call Fibo.fibo 2
+add
+pop this 0
+label IF_FALSE2
+push this 0
+return
+function Fibo.print 0
+push argument 0
+pop pointer 0
+push this 0
+call Output.printInt 1
+pop temp 0
+push constant 0
+return

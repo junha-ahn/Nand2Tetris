@@ -1,0 +1,12 @@
+class Main{
+	function void main(){
+ 		var int input;
+        var Fibo f;
+
+        let input = Keyboard.readInt("input:");
+		
+        let f = Fibo.new(input);
+        do f.print();
+		return;
+	}
+}
