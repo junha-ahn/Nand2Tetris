@@ -11,7 +11,7 @@
 - [x] 6. 어셈블러
 - [x] 7. 가상머신: 스택 산술
 - [x] 8. 가상머신: 프로그램 제어
-- [ ] 9. 고수준 언어
+- [x] 9. 고수준 언어
 - [ ] 10. 컴파일러: 구문 분석
 - [ ] 11. 컴파일러: 코드 생성
 - [ ] 12. 운영체제
@@ -108,3 +108,9 @@ reference. [xctom/Nand2Tetris](https://github.com/xctom/Nand2Tetris/tree/master/
   - [x] FunctionCalls/SimpleFunction
   - [x] FunctionCalls/FibonacciElement
   - [x] FunctionCalls/StaticsTest
+
+# 9장 고수준 언어
+> 2022.01.07
+
+<img src="https://user-images.githubusercontent.com/65354945/211140628-5e9dd2b7-090b-43d6-9d06-71d4faa0a18d.PNG" width="70%">
+<img src="https://user-images.githubusercontent.com/65354945/211140626-5e63a834-1b77-42cf-bd90-f43d42243379.PNG" width="70%">
