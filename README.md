@@ -1,4 +1,4 @@
-# Nand2Tetris-Study
+# Nand2Tetris
 <밑바닥부터 만드는 컴퓨터 시스템> with [@enkoding1](https://github.com/enkoding1)
 - The Elements of Computing Systems
 
