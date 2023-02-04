@@ -13,7 +13,7 @@
 - [x] 8. 가상머신: 프로그램 제어
 - [x] 9. 고수준 언어
 - [x] 10. 컴파일러: 구문 분석
-- [ ] 11. 컴파일러: 코드 생성
+- [x] 11. 컴파일러: 코드 생성
 - [ ] 12. 운영체제
 
 # Reference 
@@ -100,7 +100,7 @@ reference. [xctom/Nand2Tetris](https://github.com/xctom/Nand2Tetris/tree/master/
   
   
 # 8장 가상머신: 프로그램 제어
-> 2022.01.07
+> 2023.01.07
 
 - [x] VM-Translator (python)
   - [x] ProgramFlow/BasicLoop
@@ -110,15 +110,24 @@ reference. [xctom/Nand2Tetris](https://github.com/xctom/Nand2Tetris/tree/master/
   - [x] FunctionCalls/StaticsTest
 
 # 9장 고수준 언어
-> 2022.01.07
+> 2023.01.07
 
 <img src="https://user-images.githubusercontent.com/65354945/211140628-5e9dd2b7-090b-43d6-9d06-71d4faa0a18d.PNG" width="70%">
 <img src="https://user-images.githubusercontent.com/65354945/211140626-5e63a834-1b77-42cf-bd90-f43d42243379.PNG" width="70%">
 
 # 10장 컴파일러: 구문 분석
-> 2022.01.14
+> 2023.01.14
 
 <img src="https://user-images.githubusercontent.com/65354945/212470112-a8536fb1-9ea8-4a15-9eac-d50ca40f7c10.png" width="70%">
 
 - [x] JackAnalyzer
 
+# 11. 컴파일러: 코드 생성
+> 2023.02.04
+
+- [x] Seven
+- [x] ConvertToBin
+- [x] Square
+- [ ] Average
+- [ ] Pong
+- [ ] Complex Array
