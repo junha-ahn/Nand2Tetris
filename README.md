@@ -125,6 +125,8 @@ reference. [xctom/Nand2Tetris](https://github.com/xctom/Nand2Tetris/tree/master/
 # 11. 컴파일러: 코드 생성
 > 2023.02.04
 
+<img src="https://user-images.githubusercontent.com/41976906/216754076-969aeef2-91dc-4fc4-a7a6-a07abbdeadd2.png" width="70%">
+
 - [x] Seven
 - [x] ConvertToBin
 - [x] Square
