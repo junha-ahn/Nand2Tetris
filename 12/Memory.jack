@@ -1,0 +1,78 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/12/Memory.jack
+
+/**
+ * This library provides two services: direct access to the computer's main
+ * memory (RAM), and allocation and recycling of memory blocks. The Hack RAM
+ * consists of 32,768 words, each holding a 16-bit binary number.
+ */ 
+class Memory {
+
+    static Array ram, freeList;
+    static int heapBase, length, next;
+
+    /** Initializes the class. */
+    function void init() {
+        let heapBase = 2048;
+        let length = 0;
+        let next = 1;
+        
+        let freeList = heapBase;
+        let freeList[length] = 14334; // 16384 - 2048 - 2
+        let freeList[next] = null;
+
+        let ram = 0;
+        return;
+    }
+
+    /** Returns the RAM value at the given address. */
+    function int peek(int address) {
+        return ram[address];
+    }
+
+    /** Sets the RAM value at the given address to the given value. */
+    function void poke(int address, int value) {
+        ram[address] = value;
+        return value;
+    }
+
+    /** Finds an available RAM block of the given size and returns
+     *  a reference to its base address. */
+    function int alloc(int size) {
+        var Array p, prevChuck, nextChunk;
+        let p = freeList;
+        let prevChuck = null;
+
+        while (p[length] < size) {
+            let prevChuck = p;
+            let p = p[next];
+            if (p = null) {
+                return -1
+            }
+        }
+
+        let nextChunk = p + 2 + size; // + 2 = length, next
+        let nextChunk[length] = p[length] - 2 - size;
+        let nextChunk[next] = p[next];
+
+        if (prevChuck = null) {
+            let freeList = nextChunk;
+        } else {
+            let prevChuck[next] = nextChunk;
+        }
+
+        return p + 2;
+    }
+
+    /** De-allocates the given object (cast as an array) by making
+     *  it available for future allocations. */
+    function void deAlloc(Array o) {
+        var Array p;
+        let p = o - 2;
+        let p[next] = freeList;
+        let freeList = p;
+        return;
+    }    
+}
