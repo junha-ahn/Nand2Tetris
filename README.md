@@ -14,7 +14,7 @@
 - [x] 9. 고수준 언어
 - [x] 10. 컴파일러: 구문 분석
 - [x] 11. 컴파일러: 코드 생성
-- [ ] 12. 운영체제
+- [x] 12. 운영체제
 
 # Reference 
 - [Nand2Tetris](https://www.nand2tetris.org/)
@@ -133,3 +133,15 @@ reference. [xctom/Nand2Tetris](https://github.com/xctom/Nand2Tetris/tree/master/
 - [ ] Average
 - [ ] Pong
 - [ ] Complex Array
+
+# 12. 운영체제
+> 2023.02.11
+
+- [x] Array.jack
+- [x] Math.jack
+- [x] Memory.jack
+- [x] Sys.jack
+- [ ] Keyboard.jack
+- [ ] Screen.jack
+- [ ] Output.jack
+- [ ] String.jack
