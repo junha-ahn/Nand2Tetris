@@ -2,7 +2,11 @@
 \<The Elements of Computing Systems\> with [@enkoding1](https://github.com/enkoding1)
 - 밑바닥부터 만드는 컴퓨터 시스템 - 인사이트 출판사
 
-Ch 1-5 Diagrams - [click here](https://devkly.com/cs/the-elements-of-computing-system-diagram/)
+<br/>
+
+Review (Korean) - [here](https://devkly.com/book/the-elements-of-computing-systems/)
+
+Ch 1-5 Diagrams - [here](https://devkly.com/cs/the-elements-of-computing-system-diagram/)
 
 # Table of Contents
 - [x] 1. Boolean Logic
